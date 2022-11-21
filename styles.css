@@ -1,20 +1,25 @@
-
 @font-face {
     font-family: Proxima_nova ;
-    src: url("/Users/adityasantoshdeshmukh/Downloads/FontsFree.otf");
+    src: url("./FontsFree.otf");
   }
 @font-face {
     font-family: Helvetica_Medium ;
-    src: url("/Users/adityasantoshdeshmukh/Downloads/Proxima.otf");
+    src: url("./Proxima.otf");
 }
+
 body{
+  margin: 0;
+  padding: 0;
+}
+
+.adica{
   font-family: Helvetica_Medium ;
   background-image: url("BI.png");
   background-repeat: repeat;
   padding: 2px 90px;
   color: white;
   background-position: center;
-
+  padding-top: 60px;
 }
 .hea p:nth-child(4){
   color: #ff1f69;
@@ -194,9 +199,11 @@ hr{
   .prize_prev1 hr {
     width: 339px;
 }
+}
 @media (max-width:674px) {
   .prize_prev hr {
     width: 377px;
+}
 }
 @media (max-width:496px) {
   .prize_prev1 hr {
